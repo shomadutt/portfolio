@@ -1,0 +1,15 @@
+$navColour: rgb(34, 6, 6);
+
+#womanImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#landingText {
+  position: absolute;
+  bottom: 78%;
+  right: 20%;
+  font-weight: 500;
+  color: $navColour;
+}

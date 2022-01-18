@@ -1,0 +1,15 @@
+#womanImage {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#landingText {
+  position: absolute;
+  bottom: 78%;
+  right: 20%;
+  font-weight: 500;
+  color: #220606;
+}
+/*# sourceMappingURL=landingPage.css.map */
