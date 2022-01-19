@@ -8,7 +8,7 @@ const Topmenu = () => {
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Navbar
+            Yoga For Life
           </a>
           <button
             class="navbar-toggler"
@@ -24,7 +24,7 @@ const Topmenu = () => {
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link" href="#">
                   About
                 </a>
               </li>
