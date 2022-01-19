@@ -3,12 +3,14 @@ import LandingPage from "./components/landingPage/LandingPage";
 import About from "./components/about/About";
 
 
+
 function App() {
   return (
     <div>
       <Topmenu />
       <LandingPage />
       <About />
+     
     </div>
   );
 }
