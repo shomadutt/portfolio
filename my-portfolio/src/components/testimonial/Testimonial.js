@@ -7,7 +7,7 @@ const Testimonial = () => {
   <p className="sectionTitle" id="testimonial">
     Testimonials
   </p>
-  <p id="testimonialText">
+  <p id="textPara">
     My name is Dee, and I teach yoga. Join me and improve your life!{" "}
     <br></br>
     Finding peace and contentment in the present moment is one of the most

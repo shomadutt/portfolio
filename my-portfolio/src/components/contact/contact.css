@@ -1,20 +1,8 @@
-section {
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: #f3d0db;
-  height: 100vh;
-}
-
-.sectionTitle {
-  text-align: center;
-}
-
+@use "../_section.scss";
+@use "../_sectionTitle.scss";
+@use "../_textPara.scss";
 #contact {
   margin-top: -142%;
   padding-top: 10%;
-}
-
-#contactText {
-  margin-top: 5%;
 }
 /*# sourceMappingURL=contact.css.map */
