@@ -5,7 +5,7 @@ import Woman from "../../images/woman.png";
 const LandingPage = () => {
   return (
     <div className="landing">
-      <img src={Woman} alt="" id="womanImage" />
+      <img src={Woman} alt="woman in a sunset" id="womanImage" />
     </div>
   );
 };
