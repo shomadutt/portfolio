@@ -1,20 +1,41 @@
-import React from 'react';
-import './contact.scss';
+import React from "react";
+import "./contact.scss";
 
 const Contact = () => {
   return (
     <section>
-    <p className="sectionTitle" id="contact">
-      Contact Me
-    </p>
-    <p id="textPara">
-      My name is Dee, and I teach yoga. Join me and improve your life!{" "}
-      <br></br>
-      Finding peace and contentment in the present moment is one of the most
-      challenging things to do, and yoga provides the tools we need to find
-      that much-desired stillness.
-    </p>
-  </section>
+      <p className="sectionTitle" id="contact">
+        Contact Me
+      </p>
+      <form>
+        <div className="mb-3">
+          <label for="exampleInputEmail1" className="form-label">
+            Email address
+          </label>
+          <input
+            type="email"
+            className="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          ></input>
+          <div id="emailHelp" className="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">
+            Message
+          </label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <button type="submit" className="btn btn-primary">
+          Submit
+        </button>
+      </form>
+    </section>
   );
 };
 

@@ -2,9 +2,20 @@
 @use "../_sectionTitle.scss";
 @use "../_textPara.scss";
 @use "../_navColour.scss";
+@use "../btnColour.scss";
 
 #contact {
   margin-top: -15%;
   padding-top: 10%;
   @include navColour.navCol;
+}
+
+.btn {
+  @include btnColour.navBtn;
+}
+
+input,
+textarea {
+  background-color: rgb(243, 208, 219) !important;
+  border-color: rgb(173, 171, 171) !important;
 }
