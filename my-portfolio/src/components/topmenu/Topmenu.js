@@ -29,7 +29,7 @@ const Topmenu = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#testimonials">
+                <a class="nav-link" href="#testimonial">
                   Testimonials
                 </a>
               </li>
