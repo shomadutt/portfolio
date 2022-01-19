@@ -1,6 +1,7 @@
 section {
   padding-left: 10%;
   padding-right: 10%;
+  background-color: #f3d0db;
 }
 
 .sectionTitle {
@@ -9,6 +10,7 @@ section {
 
 #about {
   margin-top: -120%;
+  padding-top: 10%;
 }
 
 #aboutText {

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,KAAK;CACd;;AAED,AAAA,WAAW,CAAC;EACV,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CACjB",
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,IAAI;CACb;;AAED,AAAA,WAAW,CAAC;EACV,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CACjB",
     "sources": [
         "landingPage.scss"
     ],
