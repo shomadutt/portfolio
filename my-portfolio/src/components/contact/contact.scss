@@ -1,8 +1,10 @@
 @use "../_section.scss";
 @use "../_sectionTitle.scss";
 @use "../_textPara.scss";
+@use "../_navColour.scss";
 
 #contact {
-  margin-top: -142%;
+  margin-top: -15%;
   padding-top: 10%;
+  @include navColour.navCol;
 }

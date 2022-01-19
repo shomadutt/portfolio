@@ -1,6 +1,10 @@
-$navColour: rgb(34, 6, 6);
+@use "../_navColour.scss";
 
 .navbar {
   background: rgb(231, 20, 83) !important;
   font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  @include navColour.navCol;
 }

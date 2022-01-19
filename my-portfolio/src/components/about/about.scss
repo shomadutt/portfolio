@@ -1,8 +1,10 @@
 @use "../_section.scss";
 @use "../_sectionTitle.scss";
 @use "../textPara";
+@use "../_navColour.scss";
 
 #about {
   margin-top: -120%;
   padding-top: 10%;
+  @include navColour.navCol;
 }
