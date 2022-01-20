@@ -10,14 +10,56 @@
   @include navCol;
 }
 
+@include portrait280 {
+  #testimonial {
+    margin-top: -164%;
+  }
+}
+
+@include portrait360 {
+  #testimonial {
+    margin-top: -178%;
+  }
+}
+
 @include portrait390 {
   #testimonial {
     margin-top: -199%;
   }
 }
 
+@include portrait412 {
+  #testimonial {
+    margin-top: -215%;
+  }
+}
+
 @include portrait414 {
   #testimonial {
     margin-top: -206%;
+  }
+}
+
+@include portrait540 {
+  #testimonial {
+    margin-top: -121%;
+  }
+}
+
+@include portrait768 {
+  #testimonial {
+    margin-top: -142%;
+  }
+}
+
+@include portrait820 {
+  #testimonial {
+    margin-top: -155%;
+  }
+}
+
+@include portrait912 {
+  #testimonial {
+    margin-top: -162%;
   }
 }

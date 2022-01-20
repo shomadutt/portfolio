@@ -2,7 +2,7 @@
 @import "../_sectionTitle.scss";
 @import "../textPara";
 @import "../_navColour.scss";
-@import "../btnColour.scss";
+@import "../_btnColour.scss";
 @import "../_mediaQueries.scss";
 
 #contact {
@@ -21,14 +21,57 @@ textarea {
   border-color: rgb(173, 171, 171) !important;
 }
 
+@include portrait280 {
+  #contact {
+    margin-top: -1%;
+    padding-top: 71%;
+  }
+}
+
+@include portrait360 {
+  #contact {
+    margin-top: -35%;
+  }
+}
+
 @include portrait390 {
   #contact {
     margin-top: -73%;
   }
 }
 
+@include portrait412 {
+  #contact {
+    margin-top: -160%;
+  }
+}
+
 @include portrait414 {
   #contact {
     margin-top: -89%;
+  }
+}
+
+@include portrait540 {
+  #contact {
+    margin-top: -55%;
+  }
+}
+
+@include portrait768 {
+  #contact {
+    margin-top: -97%;
+  }
+}
+
+@include portrait820 {
+  #contact {
+    margin-top: -118%;
+  }
+}
+
+@include portrait912 {
+  #contact {
+    margin-top: -130%;
   }
 }

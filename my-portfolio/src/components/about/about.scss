@@ -10,14 +10,56 @@
   @include navCol;
 }
 
+@include portrait280 {
+  #about {
+    margin-top: -185%;
+  }
+}
+
+@include portrait360 {
+  #about {
+    margin-top: -150%;
+  }
+}
+
 @include portrait390 {
   #about {
     margin-top: -163%;
   }
 }
 
+@include portrait412 {
+  #about {
+    margin-top: -172%;
+  }
+}
+
 @include portrait414 {
   #about {
     margin-top: -163%;
+  }
+}
+
+@include portrait540 {
+  #about {
+    margin-top: -70%;
+  }
+}
+
+@include portrait768 {
+  #about {
+    margin-top: -73%;
+  }
+}
+
+@include portrait820 {
+  #about {
+    margin-top: -83%;
+  }
+}
+
+@include portrait912 {
+  #about {
+    margin-top: -88%;
   }
 }

@@ -20,15 +20,57 @@ section {
   color: #220606 !important;
 }
 
+@media screen and (min-width: 280px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -164%;
+  }
+}
+
+@media screen and (min-width: 360px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -178%;
+  }
+}
+
 @media screen and (min-width: 390px) and (orientation: portrait) {
   #testimonial {
     margin-top: -199%;
   }
 }
 
+@media screen and (min-width: 412px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -215%;
+  }
+}
+
 @media screen and (min-width: 414px) and (orientation: portrait) {
   #testimonial {
     margin-top: -206%;
+  }
+}
+
+@media screen and (min-width: 540px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -121%;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -142%;
+  }
+}
+
+@media screen and (min-width: 820px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -155%;
+  }
+}
+
+@media screen and (min-width: 912px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -162%;
   }
 }
 /*# sourceMappingURL=testimonial.css.map */

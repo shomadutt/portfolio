@@ -20,15 +20,57 @@ section {
   color: #220606 !important;
 }
 
+@media screen and (min-width: 280px) and (orientation: portrait) {
+  #about {
+    margin-top: -185%;
+  }
+}
+
+@media screen and (min-width: 360px) and (orientation: portrait) {
+  #about {
+    margin-top: -150%;
+  }
+}
+
 @media screen and (min-width: 390px) and (orientation: portrait) {
   #about {
     margin-top: -163%;
   }
 }
 
+@media screen and (min-width: 412px) and (orientation: portrait) {
+  #about {
+    margin-top: -172%;
+  }
+}
+
 @media screen and (min-width: 414px) and (orientation: portrait) {
   #about {
     margin-top: -163%;
+  }
+}
+
+@media screen and (min-width: 540px) and (orientation: portrait) {
+  #about {
+    margin-top: -70%;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  #about {
+    margin-top: -73%;
+  }
+}
+
+@media screen and (min-width: 820px) and (orientation: portrait) {
+  #about {
+    margin-top: -83%;
+  }
+}
+
+@media screen and (min-width: 912px) and (orientation: portrait) {
+  #about {
+    margin-top: -88%;
   }
 }
 /*# sourceMappingURL=about.css.map */
