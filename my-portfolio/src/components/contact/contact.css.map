@@ -1,8 +1,13 @@
 {
     "version": 3,
-    "mappings": "AAAA,IAAI,CAAJ,kBAAI;AACJ,IAAI,CAAJ,uBAAI;AACJ,IAAI,CAAJ,mBAAI;AAEJ,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,GAAG;CACjB",
+    "mappings": "ACAA,AAAA,OAAO,CAAC;EACN,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,OAAkB;EACpC,MAAM,EAAE,KAAK;CACd;;ACLD,AAAA,aAAa,CAAC;EACZ,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;CACjB;;ACHD,AAAA,SAAS,CAAC;EACR,UAAU,EAAE,EAAE;CACf;;AHID,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,GAAG;EIPhB,KAAK,EAAE,OAAa,CAAC,UAAU;CJShC;;AAMD,AAAA,KAAK;AACL,QAAQ,CAAC;EACP,gBAAgB,EAAE,OAAkB,CAAC,UAAU;EAC/C,YAAY,EAAE,OAAkB,CAAC,UAAU;CAC5C",
     "sources": [
-        "contact.scss"
+        "contact.scss",
+        "../_section.scss",
+        "../_sectionTitle.scss",
+        "../_textPara.scss",
+        "../_navColour.scss",
+        "../_mediaQueries.scss"
     ],
     "names": [],
     "file": "contact.css"

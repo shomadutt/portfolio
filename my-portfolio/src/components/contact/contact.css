@@ -1,8 +1,28 @@
-@use "../_section.scss";
-@use "../_sectionTitle.scss";
-@use "../_textPara.scss";
+section {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #f3d0db;
+  height: 100vh;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-weight: 500;
+}
+
+#textPara {
+  margin-top: 5%;
+}
+
 #contact {
   margin-top: -15%;
   padding-top: 10%;
+  color: #220606 !important;
+}
+
+input,
+textarea {
+  background-color: #f3d0db !important;
+  border-color: #adabab !important;
 }
 /*# sourceMappingURL=contact.css.map */

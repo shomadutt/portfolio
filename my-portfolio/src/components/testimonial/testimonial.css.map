@@ -1,8 +1,13 @@
 {
     "version": 3,
-    "mappings": "AAAA,IAAI,CAAJ,kBAAI;AACJ,IAAI,CAAJ,uBAAI;AACJ,IAAI,CAAJ,mBAAI;AAGJ,AAAA,YAAY,CAAC;EACX,UAAU,EAAE,KAAK;EACjB,WAAW,EAAE,GAAG;CAEjB",
+    "mappings": "ACAA,AAAA,OAAO,CAAC;EACN,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,OAAkB;EACpC,MAAM,EAAE,KAAK;CACd;;ACLD,AAAA,aAAa,CAAC;EACZ,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;CACjB;;ACHD,AAAA,SAAS,CAAC;EACR,UAAU,EAAE,EAAE;CACf;;AHID,AAAA,YAAY,CAAC;EACX,UAAU,EAAE,KAAK;EACjB,WAAW,EAAE,GAAG;EIPhB,KAAK,EAAE,OAAa,CAAC,UAAU;CJShC",
     "sources": [
-        "testimonial.scss"
+        "testimonial.scss",
+        "../_section.scss",
+        "../_sectionTitle.scss",
+        "../_textPara.scss",
+        "../_navColour.scss",
+        "../_mediaQueries.scss"
     ],
     "names": [],
     "file": "testimonial.css"

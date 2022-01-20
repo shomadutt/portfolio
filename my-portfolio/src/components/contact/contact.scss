@@ -1,17 +1,18 @@
-@use "../_section.scss";
-@use "../_sectionTitle.scss";
-@use "../_textPara.scss";
-@use "../_navColour.scss";
-@use "../btnColour.scss";
+@import "../_section.scss";
+@import "../_sectionTitle.scss";
+@import "../textPara";
+@import "../_navColour.scss";
+@import "../btnColour.scss";
+@import "../_mediaQueries.scss";
 
 #contact {
   margin-top: -15%;
   padding-top: 10%;
-  @include navColour.navCol;
+  @include navCol;
 }
 
 .btn {
-  @include btnColour.navBtn;
+  @include navBtn;
 }
 
 input,
