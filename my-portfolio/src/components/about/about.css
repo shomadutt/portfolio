@@ -32,6 +32,12 @@ section {
   }
 }
 
+@media screen and (min-width: 375px) and (orientation: portrait) {
+  #about {
+    margin-top: -120%;
+  }
+}
+
 @media screen and (min-width: 390px) and (orientation: portrait) {
   #about {
     margin-top: -163%;
@@ -71,6 +77,42 @@ section {
 @media screen and (min-width: 912px) and (orientation: portrait) {
   #about {
     margin-top: -88%;
+  }
+}
+
+@media screen and (min-width: 653px) and (orientation: landscape) {
+  #about {
+    margin-top: -1%;
+  }
+}
+
+@media screen and (min-width: 667px) and (orientation: landscape) {
+  #about {
+    margin-top: -1%;
+  }
+}
+
+@media screen and (min-width: 740px) and (orientation: landscape) {
+  #about {
+    margin-top: -3%;
+  }
+}
+
+@media screen and (min-width: 844px) and (orientation: landscape) {
+  #about {
+    margin-top: -3%;
+  }
+}
+
+@media screen and (min-width: 896px) and (orientation: landscape) {
+  #about {
+    margin-top: -4%;
+  }
+}
+
+@media screen and (min-width: 1180px) and (orientation: landscape) {
+  #about {
+    margin-top: -4%;
   }
 }
 /*# sourceMappingURL=about.css.map */

@@ -1,3 +1,5 @@
+// Portrait
+
 @mixin portrait280 {
   @media screen and (min-width: 280px) and (orientation: portrait) {
     @content;
@@ -6,6 +8,12 @@
 
 @mixin portrait360 {
   @media screen and (min-width: 360px) and (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin portrait375 {
+  @media screen and (min-width: 375px) and (orientation: portrait) {
     @content;
   }
 }
@@ -48,6 +56,62 @@
 
 @mixin portrait912 {
   @media screen and (min-width: 912px) and (orientation: portrait) {
+    @content;
+  }
+}
+
+// Landscape
+
+@mixin landscape653 {
+  @media screen and (min-width: 653px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape667 {
+  @media screen and (min-width: 667px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape740 {
+  @media screen and (min-width: 740px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape844 {
+  @media screen and (min-width: 844px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape896 {
+  @media screen and (min-width: 896px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape914 {
+  @media screen and (min-width: 914px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape1024 {
+  @media screen and (min-width: 1024px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape1180 {
+  @media screen and (min-width: 1180px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape1280 {
+  @media screen and (min-width: 1280px) and (orientation: landscape) {
     @content;
   }
 }

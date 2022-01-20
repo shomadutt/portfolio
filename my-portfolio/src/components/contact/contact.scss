@@ -21,6 +21,8 @@ textarea {
   border-color: rgb(173, 171, 171) !important;
 }
 
+// Portrait
+
 @include portrait280 {
   #contact {
     margin-top: -1%;
@@ -30,13 +32,19 @@ textarea {
 
 @include portrait360 {
   #contact {
-    margin-top: -35%;
+    margin-top: -97%;
+  }
+}
+
+@include portrait375 {
+  #contact {
+    margin-top: -79%;
   }
 }
 
 @include portrait390 {
   #contact {
-    margin-top: -73%;
+    margin-top: -134%;
   }
 }
 
@@ -48,30 +56,86 @@ textarea {
 
 @include portrait414 {
   #contact {
-    margin-top: -89%;
+    margin-top: -152%;
   }
 }
 
 @include portrait540 {
   #contact {
-    margin-top: -55%;
+    margin-top: -116%;
   }
 }
 
 @include portrait768 {
   #contact {
-    margin-top: -97%;
+    margin-top: -158%;
   }
 }
 
 @include portrait820 {
   #contact {
-    margin-top: -118%;
+    margin-top: -180%;
   }
 }
 
 @include portrait912 {
   #contact {
     margin-top: -130%;
+  }
+}
+
+// Landscape
+
+@include landscape653 {
+  #contact {
+    padding-top: 60%;
+  }
+}
+
+@include landscape667 {
+  #contact {
+    margin-top: -58%;
+  }
+}
+
+@include landscape740 {
+  #contact {
+    margin-top: -5%;
+  }
+}
+
+@include landscape844 {
+  #contact {
+    margin-top: -15%;
+  }
+}
+
+@include landscape896 {
+  #contact {
+    margin-top: -19%;
+  }
+}
+
+@include landscape914 {
+  #contact {
+    margin-top: -40%;
+  }
+}
+
+@include landscape1024 {
+  #contact {
+    margin-top: -97%;
+  }
+}
+
+@include landscape1180 {
+  #contact {
+    margin-top: -73%;
+  }
+}
+
+@include landscape1280 {
+  #contact {
+    margin-top: -114%;
   }
 }

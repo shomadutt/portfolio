@@ -10,6 +10,8 @@
   @include navCol;
 }
 
+// Portrait
+
 @include portrait280 {
   #about {
     margin-top: -185%;
@@ -19,6 +21,12 @@
 @include portrait360 {
   #about {
     margin-top: -150%;
+  }
+}
+
+@include portrait375 {
+  #about {
+    margin-top: -120%;
   }
 }
 
@@ -61,5 +69,43 @@
 @include portrait912 {
   #about {
     margin-top: -88%;
+  }
+}
+
+// Landscape
+
+@include landscape653 {
+  #about {
+    margin-top: -1%;
+  }
+}
+
+@include landscape667 {
+  #about {
+    margin-top: -1%;
+  }
+}
+
+@include landscape740 {
+  #about {
+    margin-top: -3%;
+  }
+}
+
+@include landscape844 {
+  #about {
+    margin-top: -3%;
+  }
+}
+
+@include landscape896 {
+  #about {
+    margin-top: -4%;
+  }
+}
+
+@include landscape1180 {
+  #about {
+    margin-top: -4%;
   }
 }

@@ -10,6 +10,8 @@
   @include navCol;
 }
 
+// Portrait
+
 @include portrait280 {
   #testimonial {
     margin-top: -164%;
@@ -19,6 +21,12 @@
 @include portrait360 {
   #testimonial {
     margin-top: -178%;
+  }
+}
+
+@include portrait375 {
+  #testimonial {
+    margin-top: -145%;
   }
 }
 
@@ -61,5 +69,61 @@
 @include portrait912 {
   #testimonial {
     margin-top: -162%;
+  }
+}
+
+// Landscape
+
+@include landscape653 {
+  #testimonial {
+    margin-top: -20%;
+  }
+  #testimonialSection {
+    height: 100vh;
+  }
+}
+
+@include landscape667 {
+  #testimonial {
+    margin-top: -38%;
+  }
+  #testimonialSection {
+    height: 130vh;
+  }
+}
+
+@include landscape740 {
+  #testimonial {
+    margin-top: -32%;
+  }
+}
+
+@include landscape844 {
+  #testimonial {
+    margin-top: -33%;
+  }
+}
+
+@include landscape896 {
+  #testimonial {
+    margin-top: -35%;
+  }
+}
+
+@include landscape1024 {
+  #testimonial {
+    margin-top: -52%;
+  }
+}
+
+@include landscape1180 {
+  #testimonial {
+    margin-top: -68%;
+  }
+}
+
+@include landscape1280 {
+  #testimonial {
+    margin-top: -60%;
   }
 }

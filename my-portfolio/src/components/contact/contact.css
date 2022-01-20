@@ -40,13 +40,19 @@ textarea {
 
 @media screen and (min-width: 360px) and (orientation: portrait) {
   #contact {
-    margin-top: -35%;
+    margin-top: -97%;
+  }
+}
+
+@media screen and (min-width: 375px) and (orientation: portrait) {
+  #contact {
+    margin-top: -79%;
   }
 }
 
 @media screen and (min-width: 390px) and (orientation: portrait) {
   #contact {
-    margin-top: -73%;
+    margin-top: -134%;
   }
 }
 
@@ -58,31 +64,85 @@ textarea {
 
 @media screen and (min-width: 414px) and (orientation: portrait) {
   #contact {
-    margin-top: -89%;
+    margin-top: -152%;
   }
 }
 
 @media screen and (min-width: 540px) and (orientation: portrait) {
   #contact {
-    margin-top: -55%;
+    margin-top: -116%;
   }
 }
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
   #contact {
-    margin-top: -97%;
+    margin-top: -158%;
   }
 }
 
 @media screen and (min-width: 820px) and (orientation: portrait) {
   #contact {
-    margin-top: -118%;
+    margin-top: -180%;
   }
 }
 
 @media screen and (min-width: 912px) and (orientation: portrait) {
   #contact {
     margin-top: -130%;
+  }
+}
+
+@media screen and (min-width: 653px) and (orientation: landscape) {
+  #contact {
+    padding-top: 60%;
+  }
+}
+
+@media screen and (min-width: 667px) and (orientation: landscape) {
+  #contact {
+    margin-top: -58%;
+  }
+}
+
+@media screen and (min-width: 740px) and (orientation: landscape) {
+  #contact {
+    margin-top: -5%;
+  }
+}
+
+@media screen and (min-width: 844px) and (orientation: landscape) {
+  #contact {
+    margin-top: -15%;
+  }
+}
+
+@media screen and (min-width: 896px) and (orientation: landscape) {
+  #contact {
+    margin-top: -19%;
+  }
+}
+
+@media screen and (min-width: 914px) and (orientation: landscape) {
+  #contact {
+    margin-top: -40%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  #contact {
+    margin-top: -97%;
+  }
+}
+
+@media screen and (min-width: 1180px) and (orientation: landscape) {
+  #contact {
+    margin-top: -73%;
+  }
+}
+
+@media screen and (min-width: 1280px) and (orientation: landscape) {
+  #contact {
+    margin-top: -114%;
   }
 }
 /*# sourceMappingURL=contact.css.map */

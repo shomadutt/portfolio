@@ -3,7 +3,7 @@ import "./testimonial.scss";
 
 const Testimonial = () => {
   return (
-    <section>
+    <section id="testimonialSection">
       <p className="sectionTitle" id="testimonial">
         Testimonials
       </p>

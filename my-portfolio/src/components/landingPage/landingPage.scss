@@ -1,5 +1,7 @@
 $navColour: rgb(34, 6, 6);
 
+@import "../_mediaQueries.scss";
+
 .landing {
   height: 91vh;
 }
@@ -7,4 +9,20 @@ $navColour: rgb(34, 6, 6);
 #womanImage {
   max-width: 100%;
   max-height: 100%;
+}
+
+// Landscape
+
+@include landscape653 {
+  .landing {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@include landscape667 {
+  .landing {
+    height: 100%;
+    width: 100%;
+  }
 }
