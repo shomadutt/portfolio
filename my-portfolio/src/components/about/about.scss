@@ -10,8 +10,14 @@
   @include navCol;
 }
 
-// @include phone {
-//   #about {
-//     margin-top: -300%;
-//   }
-// }
+@include portrait390 {
+  #about {
+    margin-top: -163%;
+  }
+}
+
+@include portrait414 {
+  #about {
+    margin-top: -163%;
+  }
+}

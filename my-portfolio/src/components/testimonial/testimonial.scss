@@ -9,3 +9,15 @@
   padding-top: 10%;
   @include navCol;
 }
+
+@include portrait390 {
+  #testimonial {
+    margin-top: -199%;
+  }
+}
+
+@include portrait414 {
+  #testimonial {
+    margin-top: -206%;
+  }
+}

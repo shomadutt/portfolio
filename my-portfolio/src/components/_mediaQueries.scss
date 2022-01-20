@@ -1,4 +1,10 @@
-@mixin phone {
+@mixin portrait390 {
+  @media screen and (min-width: 390px) and (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin portrait414 {
   @media screen and (min-width: 414px) and (orientation: portrait) {
     @content;
   }

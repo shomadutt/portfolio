@@ -19,4 +19,16 @@ section {
   padding-top: 10%;
   color: #220606 !important;
 }
+
+@media screen and (min-width: 390px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -199%;
+  }
+}
+
+@media screen and (min-width: 414px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -206%;
+  }
+}
 /*# sourceMappingURL=testimonial.css.map */

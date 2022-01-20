@@ -20,3 +20,15 @@ textarea {
   background-color: rgb(243, 208, 219) !important;
   border-color: rgb(173, 171, 171) !important;
 }
+
+@include portrait390 {
+  #contact {
+    margin-top: -73%;
+  }
+}
+
+@include portrait414 {
+  #contact {
+    margin-top: -89%;
+  }
+}
