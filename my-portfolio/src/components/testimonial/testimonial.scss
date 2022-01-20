@@ -1,10 +1,10 @@
 @use "../_section.scss";
 @use "../_sectionTitle.scss";
 @use "../_textPara.scss";
-@use "../_navColour.scss";
+// @use "../_navColour.scss";
 
 #testimonial {
   margin-top: -142%;
   padding-top: 10%;
-  @include navColour.navCol;
+  // @include navColour.navCol;
 }
