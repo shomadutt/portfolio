@@ -1,0 +1,92 @@
+section {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #f3d0db;
+  height: 100vh;
+}
+
+#footerSection {
+  height: 50vh;
+}
+
+@media screen and (min-width: 280px) and (orientation: portrait) {
+  #footerSection {
+    margin-top: -50%;
+  }
+}
+
+@media screen and (min-width: 360px) and (orientation: portrait) {
+  #footerSection {
+    height: 40vh;
+    text-align: center;
+    margin-top: -70%;
+  }
+}
+
+@media screen and (min-width: 375px) and (orientation: portrait) {
+  #footerSection {
+    height: 35vh;
+    text-align: center;
+    margin-top: -50%;
+  }
+}
+
+@media screen and (min-width: 390px) and (orientation: portrait) {
+  #footerSection {
+    height: 50vh;
+    text-align: center;
+    margin-top: -90%;
+  }
+}
+
+@media screen and (min-width: 412px) and (orientation: portrait) {
+  #footerSection {
+    height: 55vh;
+    text-align: center;
+    margin-top: -100%;
+  }
+}
+
+@media screen and (min-width: 414px) and (orientation: portrait) {
+  #footerSection {
+    height: 50vh;
+    text-align: center;
+    margin-top: -90%;
+  }
+}
+
+@media screen and (min-width: 540px) and (orientation: portrait) {
+  #footer {
+    margin-top: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  #footerSection {
+    height: 50vh;
+    text-align: center;
+    padding-top: 50%;
+  }
+}
+
+@media screen and (min-width: 912px) and (orientation: portrait) {
+  #footerSection {
+    text-align: center;
+    height: 10vh;
+  }
+}
+
+@media screen and (min-width: 667px) and (orientation: landscape) {
+  #footerSection {
+    text-align: center;
+    margin-top: -1%;
+  }
+}
+
+@media screen and (min-width: 653px) and (orientation: landscape) {
+  #footerSection {
+    text-align: center;
+    margin-top: -1%;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

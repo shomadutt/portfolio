@@ -77,25 +77,16 @@ textarea {
 
 @include portrait768 {
   #contact {
-    margin-top: -158%;
+    padding-top: 60%;
   }
   #contactSection {
-    height: 130vh;
-  }
-}
-
-@include portrait820 {
-  #contact {
-    margin-top: -180%;
-  }
-  #contactSection {
-    height: 130vh;
+    height: 10vh;
   }
 }
 
 @include portrait912 {
-  #contact {
-    margin-top: -191%;
+  #contactSection {
+    height: 50vh;
   }
 }
 
@@ -112,10 +103,10 @@ textarea {
 
 @include landscape667 {
   #contact {
-    margin-top: -58%;
+    margin-top: -8%;
   }
   #contactSection {
-    height: 180vh;
+    height: 100vh;
   }
 }
 
@@ -130,25 +121,34 @@ textarea {
 
 @include landscape740 {
   #contact {
-    margin-top: -55%;
+    margin-top: -6%;
   }
   #contactSection {
-    height: 200vh;
+    height: 110vh;
+  }
+}
+
+@include portrait820 {
+  #contact {
+    padding-top: 9%;
   }
 }
 
 @include landscape844 {
   #contact {
-    margin-top: -66%;
+    margin-top: -15%;
   }
   #contactSection {
-    height: 190vh;
+    height: 100vh;
   }
 }
 
 @include landscape896 {
   #contact {
-    margin-top: -69%;
+    margin-top: -19%;
+  }
+  #contactSection {
+    height: 100vh;
   }
 }
 
@@ -172,10 +172,10 @@ textarea {
 
 @include landscape1180 {
   #contact {
-    margin-top: -123%;
+    margin-top: -72%;
   }
   #contactSection {
-    height: 160vh;
+    height: 100vh;
   }
 }
 
@@ -191,5 +191,24 @@ textarea {
 @include landscape1368 {
   #contact {
     margin-top: -73%;
+  }
+}
+
+// Responsive
+
+@include portrait465 {
+  #contact {
+    margin-top: -42%;
+  }
+  #contactSection {
+    height: 130vh;
+  }
+}
+
+// Responsive
+
+@include landscape1326 {
+  #contact {
+    margin-top: -21%;
   }
 }

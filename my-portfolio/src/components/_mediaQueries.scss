@@ -42,6 +42,12 @@
   }
 }
 
+@mixin portrait720 {
+  @media screen and (min-width: 720px) and (orientation: portrait) {
+    @content;
+  }
+}
+
 @mixin portrait768 {
   @media screen and (min-width: 768px) and (orientation: portrait) {
     @content;
@@ -124,6 +130,22 @@
 
 @mixin landscape1368 {
   @media screen and (min-width: 1368px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+// Responsive
+
+@mixin portrait465 {
+  @media screen and (min-width: 465px) and (orientation: portrait) {
+    @content;
+  }
+}
+
+// Responsive
+
+@mixin landscape1326 {
+  @media screen and (min-width: 1326px) and (orientation: landscape) {
     @content;
   }
 }

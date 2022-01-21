@@ -1,0 +1,91 @@
+@import "../_section.scss";
+@import "../_mediaQueries.scss";
+
+#footerSection {
+  height: 50vh;
+}
+
+// Portrait
+
+@include portrait280 {
+  #footerSection {
+    margin-top: -50%;
+  }
+}
+
+@include portrait360 {
+  #footerSection {
+    height: 40vh;
+    text-align: center;
+    margin-top: -70%;
+  }
+}
+
+@include portrait375 {
+  #footerSection {
+    height: 35vh;
+    text-align: center;
+    margin-top: -50%;
+  }
+}
+
+@include portrait390 {
+  #footerSection {
+    height: 50vh;
+    text-align: center;
+    margin-top: -90%;
+  }
+}
+
+@include portrait412 {
+  #footerSection {
+    height: 55vh;
+    text-align: center;
+    margin-top: -100%;
+  }
+}
+
+@include portrait414 {
+  #footerSection {
+    height: 50vh;
+    text-align: center;
+    margin-top: -90%;
+  }
+}
+
+@include portrait540 {
+  #footer {
+    margin-top: 50%;
+  }
+}
+
+@include portrait768 {
+  #footerSection {
+    height: 50vh;
+    text-align: center;
+    padding-top: 50%;
+  }
+}
+
+@include portrait912 {
+  #footerSection {
+    text-align: center;
+    height: 10vh;
+  }
+}
+
+// Landscape
+
+@include landscape667 {
+  #footerSection {
+    text-align: center;
+    margin-top: -1%;
+  }
+}
+
+@include landscape653 {
+  #footerSection {
+    text-align: center;
+    margin-top: -1%;
+  }
+}

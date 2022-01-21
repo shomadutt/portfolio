@@ -1,5 +1,6 @@
 .landing {
-  height: 91vh;
+  height: 100%;
+  width: 100%;
 }
 
 #womanImage {
@@ -7,17 +8,21 @@
   max-height: 100%;
 }
 
-@media screen and (min-width: 653px) and (orientation: landscape) {
+@media screen and (min-width: 540px) and (orientation: portrait) {
   .landing {
-    height: 100%;
-    width: 100%;
+    height: 68vh;
   }
 }
 
-@media screen and (min-width: 667px) and (orientation: landscape) {
+@media screen and (min-width: 820px) and (orientation: portrait) {
   .landing {
-    height: 100%;
-    width: 100%;
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 912px) and (orientation: portrait) {
+  .landing {
+    height: 50vh;
   }
 }
 /*# sourceMappingURL=landingPage.css.map */

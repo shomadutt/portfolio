@@ -57,26 +57,32 @@ section {
 }
 
 @media screen and (min-width: 540px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -121%;
+  #testimonialSection {
+    margin-bottom: -93%;
   }
 }
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
   #testimonial {
-    margin-top: -142%;
+    padding-top: 5%;
+  }
+  #testimonialSection {
+    height: 80vh;
   }
 }
 
 @media screen and (min-width: 820px) and (orientation: portrait) {
   #testimonial {
-    margin-top: -155%;
+    padding-top: 10%;
+  }
+  #testimonialSection {
+    height: 107vh;
   }
 }
 
 @media screen and (min-width: 912px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -162%;
+  #testimonialSection {
+    height: 93vh;
   }
 }
 
@@ -107,6 +113,12 @@ section {
 @media screen and (min-width: 740px) and (orientation: landscape) {
   #testimonial {
     margin-top: -32%;
+  }
+}
+
+@media screen and (min-width: 820px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -200%;
   }
 }
 
@@ -146,9 +158,27 @@ section {
   }
 }
 
+@media screen and (min-width: 1326px) and (orientation: landscape) {
+  #testimonial {
+    margin-top: -65%;
+  }
+}
+
 @media screen and (min-width: 1368px) and (orientation: landscape) {
   #testimonial {
     margin-top: -65%;
+  }
+}
+
+@media screen and (min-width: 465px) and (orientation: portrait) {
+  #testimonial {
+    margin-top: -68%;
+  }
+}
+
+@media screen and (min-width: 1326px) and (orientation: landscape) {
+  #testimonial {
+    margin-top: -26%;
   }
 }
 /*# sourceMappingURL=testimonial.css.map */

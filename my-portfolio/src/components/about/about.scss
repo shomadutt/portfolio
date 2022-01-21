@@ -14,61 +14,67 @@
 
 @include portrait280 {
   #about {
-    margin-top: -185%;
+    margin-top: -1%;
   }
 }
 
 @include portrait360 {
   #about {
-    margin-top: -150%;
+    margin-top: -1%;
   }
 }
 
 @include portrait375 {
   #about {
-    margin-top: -120%;
+    margin-top: -1%;
   }
 }
 
 @include portrait390 {
   #about {
-    margin-top: -163%;
+    margin-top: -1%;
   }
 }
 
 @include portrait412 {
   #about {
-    margin-top: -172%;
+    margin-top: -1%;
   }
 }
 
 @include portrait414 {
   #about {
-    margin-top: -163%;
+    margin-top: -1%;
   }
 }
 
 @include portrait540 {
-  #about {
-    margin-top: -70%;
+  #aboutSection {
+    height: 68vh;
   }
 }
 
 @include portrait768 {
   #about {
-    margin-top: -73%;
+    padding-top: 10%;
+  }
+  #aboutSection {
+    height: 60vh;
   }
 }
 
 @include portrait820 {
   #about {
-    margin-top: -83%;
+    padding-top: 30%;
+  }
+  #aboutSection {
+    height: 70vh;
   }
 }
 
 @include portrait912 {
-  #about {
-    margin-top: -88%;
+  #aboutSection {
+    height: 60vh;
   }
 }
 
@@ -107,5 +113,13 @@
 @include landscape1180 {
   #about {
     margin-top: -4%;
+  }
+}
+
+// Responsive
+
+@include portrait465 {
+  #about {
+    margin-top: -32%;
   }
 }
