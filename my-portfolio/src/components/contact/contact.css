@@ -42,11 +42,17 @@ textarea {
   #contact {
     margin-top: -97%;
   }
+  #contactSection {
+    height: 110vh;
+  }
 }
 
 @media screen and (min-width: 375px) and (orientation: portrait) {
   #contact {
     margin-top: -79%;
+  }
+  #contactSection {
+    height: 110vh;
   }
 }
 
@@ -72,11 +78,17 @@ textarea {
   #contact {
     margin-top: -116%;
   }
+  #contactSection {
+    height: 125vh;
+  }
 }
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
   #contact {
     margin-top: -158%;
+  }
+  #contactSection {
+    height: 130vh;
   }
 }
 
@@ -84,17 +96,23 @@ textarea {
   #contact {
     margin-top: -180%;
   }
+  #contactSection {
+    height: 130vh;
+  }
 }
 
 @media screen and (min-width: 912px) and (orientation: portrait) {
   #contact {
-    margin-top: -130%;
+    margin-top: -191%;
   }
 }
 
 @media screen and (min-width: 653px) and (orientation: landscape) {
   #contact {
-    padding-top: 60%;
+    margin-top: -12%;
+  }
+  #contactSection {
+    height: 150vh;
   }
 }
 
@@ -102,47 +120,83 @@ textarea {
   #contact {
     margin-top: -58%;
   }
+  #contactSection {
+    height: 180vh;
+  }
+}
+
+@media screen and (min-width: 720px) and (orientation: landscape) {
+  #contact {
+    margin-top: -93%;
+  }
+  #contactSection {
+    height: 140vh;
+  }
 }
 
 @media screen and (min-width: 740px) and (orientation: landscape) {
   #contact {
-    margin-top: -5%;
+    margin-top: -55%;
+  }
+  #contactSection {
+    height: 200vh;
   }
 }
 
 @media screen and (min-width: 844px) and (orientation: landscape) {
   #contact {
-    margin-top: -15%;
+    margin-top: -66%;
+  }
+  #contactSection {
+    height: 190vh;
   }
 }
 
 @media screen and (min-width: 896px) and (orientation: landscape) {
   #contact {
-    margin-top: -19%;
+    margin-top: -69%;
   }
 }
 
 @media screen and (min-width: 914px) and (orientation: landscape) {
   #contact {
-    margin-top: -40%;
+    margin-top: -18%;
+  }
+  #contactSection {
+    height: 100vh;
   }
 }
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
   #contact {
-    margin-top: -97%;
+    margin-top: -45%;
+  }
+  #contactSection {
+    height: 90vh;
   }
 }
 
 @media screen and (min-width: 1180px) and (orientation: landscape) {
   #contact {
-    margin-top: -73%;
+    margin-top: -123%;
+  }
+  #contactSection {
+    height: 160vh;
   }
 }
 
 @media screen and (min-width: 1280px) and (orientation: landscape) {
   #contact {
-    margin-top: -114%;
+    margin-top: -64%;
+  }
+  #contactSection {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1368px) and (orientation: landscape) {
+  #contact {
+    margin-top: -123%;
   }
 }
 /*# sourceMappingURL=contact.css.map */

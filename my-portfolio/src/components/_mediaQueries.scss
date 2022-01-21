@@ -74,6 +74,12 @@
   }
 }
 
+@mixin landscape720 {
+  @media screen and (min-width: 720px) and (orientation: landscape) {
+    @content;
+  }
+}
+
 @mixin landscape740 {
   @media screen and (min-width: 740px) and (orientation: landscape) {
     @content;
@@ -112,6 +118,12 @@
 
 @mixin landscape1280 {
   @media screen and (min-width: 1280px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape1368 {
+  @media screen and (min-width: 1368px) and (orientation: landscape) {
     @content;
   }
 }

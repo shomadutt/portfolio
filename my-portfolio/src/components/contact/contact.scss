@@ -34,11 +34,17 @@ textarea {
   #contact {
     margin-top: -97%;
   }
+  #contactSection {
+    height: 110vh;
+  }
 }
 
 @include portrait375 {
   #contact {
     margin-top: -79%;
+  }
+  #contactSection {
+    height: 110vh;
   }
 }
 
@@ -64,11 +70,17 @@ textarea {
   #contact {
     margin-top: -116%;
   }
+  #contactSection {
+    height: 125vh;
+  }
 }
 
 @include portrait768 {
   #contact {
     margin-top: -158%;
+  }
+  #contactSection {
+    height: 130vh;
   }
 }
 
@@ -76,11 +88,14 @@ textarea {
   #contact {
     margin-top: -180%;
   }
+  #contactSection {
+    height: 130vh;
+  }
 }
 
 @include portrait912 {
   #contact {
-    margin-top: -130%;
+    margin-top: -191%;
   }
 }
 
@@ -88,7 +103,10 @@ textarea {
 
 @include landscape653 {
   #contact {
-    padding-top: 60%;
+    margin-top: -12%;
+  }
+  #contactSection {
+    height: 150vh;
   }
 }
 
@@ -96,46 +114,82 @@ textarea {
   #contact {
     margin-top: -58%;
   }
+  #contactSection {
+    height: 180vh;
+  }
+}
+
+@include landscape720 {
+  #contact {
+    margin-top: -93%;
+  }
+  #contactSection {
+    height: 140vh;
+  }
 }
 
 @include landscape740 {
   #contact {
-    margin-top: -5%;
+    margin-top: -55%;
+  }
+  #contactSection {
+    height: 200vh;
   }
 }
 
 @include landscape844 {
   #contact {
-    margin-top: -15%;
+    margin-top: -66%;
+  }
+  #contactSection {
+    height: 190vh;
   }
 }
 
 @include landscape896 {
   #contact {
-    margin-top: -19%;
+    margin-top: -69%;
   }
 }
 
 @include landscape914 {
   #contact {
-    margin-top: -40%;
+    margin-top: -18%;
+  }
+  #contactSection {
+    height: 100vh;
   }
 }
 
 @include landscape1024 {
   #contact {
-    margin-top: -97%;
+    margin-top: -45%;
+  }
+  #contactSection {
+    height: 90vh;
   }
 }
 
 @include landscape1180 {
   #contact {
-    margin-top: -73%;
+    margin-top: -123%;
+  }
+  #contactSection {
+    height: 160vh;
   }
 }
 
 @include landscape1280 {
   #contact {
-    margin-top: -114%;
+    margin-top: -64%;
+  }
+  #contactSection {
+    height: 100vh;
+  }
+}
+
+@include landscape1368 {
+  #contact {
+    margin-top: -123%;
   }
 }
