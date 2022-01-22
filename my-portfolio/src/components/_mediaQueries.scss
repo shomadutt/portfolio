@@ -98,6 +98,12 @@
   }
 }
 
+@mixin landscape851 {
+  @media screen and (min-width: 851px) and (orientation: landscape) {
+    @content;
+  }
+}
+
 @mixin landscape896 {
   @media screen and (min-width: 896px) and (orientation: landscape) {
     @content;
@@ -110,8 +116,20 @@
   }
 }
 
+@mixin landscape915 {
+  @media screen and (min-width: 915px) and (orientation: landscape) {
+    @content;
+  }
+}
+
 @mixin landscape1024 {
   @media screen and (min-width: 1024px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape1024And600 {
+  @media screen and (min-width: 1024px) and (min-height: 600px) {
     @content;
   }
 }
@@ -128,16 +146,8 @@
   }
 }
 
-@mixin landscape1368 {
-  @media screen and (min-width: 1368px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-// Responsive
-
-@mixin portrait465 {
-  @media screen and (min-width: 465px) and (orientation: portrait) {
+@mixin landscape1400 {
+  @media screen and (min-width: 1400px) and (orientation: landscape) {
     @content;
   }
 }

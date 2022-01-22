@@ -8,177 +8,129 @@ section {
 .sectionTitle {
   text-align: center;
   font-weight: 500;
+  padding-top: 10%;
+  color: #220606 !important;
 }
 
 #textPara {
   margin-top: 5%;
 }
 
-#testimonial {
-  margin-top: -142%;
-  padding-top: 10%;
-  color: #220606 !important;
-}
-
-@media screen and (min-width: 280px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -164%;
-  }
+#testimonialSection {
+  height: 122vh;
 }
 
 @media screen and (min-width: 360px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -178%;
+  #testimonialSection {
+    height: 86vh;
   }
 }
 
 @media screen and (min-width: 375px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -145%;
+  #testimonialSection {
+    height: 92vh;
   }
 }
 
 @media screen and (min-width: 390px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -199%;
+  #testimonialSection {
+    height: 72vh;
   }
 }
 
 @media screen and (min-width: 412px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -215%;
+  #testimonialSection {
+    height: 65vh;
   }
 }
 
 @media screen and (min-width: 414px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -206%;
+  #testimonialSection {
+    height: 66vh;
   }
 }
 
 @media screen and (min-width: 540px) and (orientation: portrait) {
   #testimonialSection {
-    margin-bottom: -93%;
+    height: 68vh;
   }
 }
 
 @media screen and (min-width: 768px) and (orientation: portrait) {
-  #testimonial {
-    padding-top: 5%;
-  }
   #testimonialSection {
-    height: 80vh;
+    height: 44vh;
   }
 }
 
 @media screen and (min-width: 820px) and (orientation: portrait) {
-  #testimonial {
-    padding-top: 10%;
-  }
   #testimonialSection {
-    height: 107vh;
+    height: 35vh;
   }
 }
 
 @media screen and (min-width: 912px) and (orientation: portrait) {
   #testimonialSection {
-    height: 93vh;
+    height: 31vh;
   }
 }
 
 @media screen and (min-width: 653px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -20%;
-  }
   #testimonialSection {
-    height: 180vh;
+    height: 162vh;
   }
 }
 
 @media screen and (min-width: 667px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -38%;
-  }
   #testimonialSection {
-    height: 130vh;
+    height: 123vh;
   }
 }
 
 @media screen and (min-width: 720px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -62%;
+  #testimonialSection {
+    height: 84vh;
   }
 }
 
 @media screen and (min-width: 740px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -32%;
-  }
-}
-
-@media screen and (min-width: 820px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -200%;
+  #testimonialSection {
+    height: 124vh;
   }
 }
 
 @media screen and (min-width: 844px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -34%;
+  #testimonialSection {
+    height: 108vh;
   }
 }
 
 @media screen and (min-width: 896px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -35%;
+  #testimonialSection {
+    height: 102vh;
   }
 }
 
 @media screen and (min-width: 914px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -34%;
+  #testimonialSection {
+    height: 104vh;
   }
 }
 
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -52%;
+@media screen and (min-width: 1024px) and (min-height: 600px) {
+  #testimonialSection {
+    height: 70vh;
   }
 }
 
 @media screen and (min-width: 1180px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -68%;
-  }
-}
-
-@media screen and (min-width: 1280px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -60%;
+  #testimonialSection {
+    height: 49vh;
   }
 }
 
 @media screen and (min-width: 1326px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -65%;
-  }
-}
-
-@media screen and (min-width: 1368px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -65%;
-  }
-}
-
-@media screen and (min-width: 465px) and (orientation: portrait) {
-  #testimonial {
-    margin-top: -68%;
-  }
-}
-
-@media screen and (min-width: 1326px) and (orientation: landscape) {
-  #testimonial {
-    margin-top: -26%;
+  #testimonialSection {
+    height: 89vh;
   }
 }
 /*# sourceMappingURL=testimonial.css.map */

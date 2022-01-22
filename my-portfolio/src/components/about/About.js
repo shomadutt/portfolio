@@ -3,7 +3,9 @@ import "./about.scss";
 
 const About = () => {
   return (
+    <div className="container px-0">
     <section id="aboutSection">
+     
       <p className="sectionTitle" id="about">
         About Me
       </p>
@@ -14,7 +16,9 @@ const About = () => {
         challenging things to do, and yoga provides the tools we need to find
         that much-desired stillness.
       </p>
+     
     </section>
+    </div>
   );
 };
 

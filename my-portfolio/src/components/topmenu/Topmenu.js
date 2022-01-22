@@ -5,13 +5,13 @@ import { nav } from "bootstrap";
 const Topmenu = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             Yoga For Life
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarTogglerDemo02"
@@ -19,22 +19,22 @@ const Topmenu = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#about">
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link" href="#about">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonial">
+              <li className="nav-item">
+                <a className="nav-link" href="#testimonial">
                   Testimonials
                 </a>
               </li>
-              <li class="nav-item">
-              <a class="nav-link" href="#contact">
+              <li className="nav-item">
+              <a className="nav-link" href="#contact">
                   Contact
                 </a>
               </li>

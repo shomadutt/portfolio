@@ -4,178 +4,152 @@
 @import "../_navColour.scss";
 @import "../_mediaQueries.scss";
 
-#testimonial {
-  margin-top: -142%;
-  padding-top: 10%;
-  @include navCol;
+#testimonialSection {
+  height: 122vh;
 }
 
 // Portrait
 
-@include portrait280 {
-  #testimonial {
-    margin-top: -164%;
-  }
-}
-
 @include portrait360 {
-  #testimonial {
-    margin-top: -178%;
+  #testimonialSection {
+    height: 86vh;
   }
 }
 
 @include portrait375 {
-  #testimonial {
-    margin-top: -145%;
+  #testimonialSection {
+    height: 92vh;
   }
 }
 
 @include portrait390 {
-  #testimonial {
-    margin-top: -199%;
+  #testimonialSection {
+    height: 72vh;
   }
 }
 
 @include portrait412 {
-  #testimonial {
-    margin-top: -215%;
+  #testimonialSection {
+    height: 65vh;
   }
 }
 
 @include portrait414 {
-  #testimonial {
-    margin-top: -206%;
+  #testimonialSection {
+    height: 66vh;
   }
 }
 
 @include portrait540 {
   #testimonialSection {
-    margin-bottom: -93%;
+    height: 68vh;
   }
 }
 
 @include portrait768 {
-  #testimonial {
-    padding-top: 5%;
-  }
   #testimonialSection {
-    height: 80vh;
+    height: 44vh;
   }
 }
 
 @include portrait820 {
-  #testimonial {
-    padding-top: 10%;
-  }
   #testimonialSection {
-    height: 107vh;
+    height: 35vh;
   }
 }
 
 @include portrait912 {
   #testimonialSection {
-    height: 93vh;
+    height: 31vh;
   }
 }
 
 // Landscape
 
 @include landscape653 {
-  #testimonial {
-    margin-top: -20%;
-  }
   #testimonialSection {
-    height: 180vh;
+    height: 162vh;
   }
 }
 
 @include landscape667 {
-  #testimonial {
-    margin-top: -38%;
-  }
   #testimonialSection {
-    height: 130vh;
+    height: 123vh;
   }
 }
 
 @include landscape720 {
-  #testimonial {
-    margin-top: -62%;
+  #testimonialSection {
+    height: 84vh;
   }
 }
 
 @include landscape740 {
-  #testimonial {
-    margin-top: -32%;
-  }
-}
-
-@include portrait820 {
-  #testimonial {
-    margin-top: -200%;
+  #testimonialSection {
+    height: 124vh;
   }
 }
 
 @include landscape844 {
-  #testimonial {
-    margin-top: -34%;
+  #testimonialSection {
+    height: 108vh;
   }
 }
 
 @include landscape896 {
-  #testimonial {
-    margin-top: -35%;
+  #testimonialSection {
+    height: 102vh;
   }
 }
 
 @include landscape914 {
-  #testimonial {
-    margin-top: -34%;
+  #testimonialSection {
+    height: 104vh;
   }
 }
 
-@include landscape1024 {
-  #testimonial {
-    margin-top: -52%;
+// @include landscape1024And768 {
+//   #testimonialSection {
+//     height: 53vh;
+//   }
+// }
+
+@include landscape1024And600 {
+  #testimonialSection {
+    height: 70vh;
   }
 }
 
 @include landscape1180 {
-  #testimonial {
-    margin-top: -68%;
+  #testimonialSection {
+    height: 49vh;
   }
 }
 
-@include landscape1280 {
-  #testimonial {
-    margin-top: -60%;
-  }
-}
+// @include landscape1280 {
+//   #testimonial {
+//     margin-top: -60%;
+//   }
+// }
 
-@include landscape1326 {
-  #testimonial {
-    margin-top: -65%;
-  }
-}
+// @include landscape1368 {
+//   #testimonial {
+//     margin-top: -65%;
+//   }
+// }
 
-@include landscape1368 {
-  #testimonial {
-    margin-top: -65%;
-  }
-}
+// // Responsive
 
-// Responsive
-
-@include portrait465 {
-  #testimonial {
-    margin-top: -68%;
-  }
-}
+// @include portrait465 {
+//   #testimonial {
+//     margin-top: -68%;
+//   }
+// }
 
 // Responsive
 
 @include landscape1326 {
-  #testimonial {
-    margin-top: -26%;
+  #testimonialSection {
+    height: 89vh;
   }
 }

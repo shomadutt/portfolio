@@ -5,10 +5,8 @@
 @import "../_btnColour.scss";
 @import "../_mediaQueries.scss";
 
-#contact {
-  margin-top: -15%;
-  padding-top: 10%;
-  @include navCol;
+#contactSection {
+  height: 55vh;
 }
 
 .btn {
@@ -23,192 +21,161 @@ textarea {
 
 // Portrait
 
-@include portrait280 {
-  #contact {
-    margin-top: -1%;
-    padding-top: 71%;
-  }
-}
-
 @include portrait360 {
-  #contact {
-    margin-top: -97%;
-  }
-  #contactSection {
-    height: 110vh;
-  }
-}
-
-@include portrait375 {
-  #contact {
-    margin-top: -79%;
-  }
-  #contactSection {
-    height: 110vh;
-  }
-}
-
-@include portrait390 {
-  #contact {
-    margin-top: -134%;
-  }
-}
-
-@include portrait412 {
-  #contact {
-    margin-top: -160%;
-  }
-}
-
-@include portrait414 {
-  #contact {
-    margin-top: -152%;
-  }
-}
-
-@include portrait540 {
-  #contact {
-    margin-top: -116%;
-  }
-  #contactSection {
-    height: 125vh;
-  }
-}
-
-@include portrait768 {
-  #contact {
-    padding-top: 60%;
-  }
-  #contactSection {
-    height: 10vh;
-  }
-}
-
-@include portrait912 {
   #contactSection {
     height: 50vh;
   }
 }
 
-// Landscape
+@include portrait375 {
+  #contactSection {
+    height: 55vh;
+  }
+}
+
+@include portrait390 {
+  #contactSection {
+    height: 46vh;
+  }
+}
+
+@include portrait412 {
+  #contactSection {
+    height: 42vh;
+  }
+}
+
+@include portrait540 {
+  #contactSection {
+    height: 55vh;
+  }
+}
+
+@include portrait768 {
+  #contactSection {
+    height: 40vh;
+  }
+}
+
+@include portrait820 {
+  #contactSection {
+    height: 35vh;
+  }
+}
+
+@include portrait912 {
+  #contactSection {
+    height: 33vh;
+  }
+}
+
+// // Landscape
 
 @include landscape653 {
-  #contact {
-    margin-top: -12%;
-  }
   #contactSection {
     height: 150vh;
   }
 }
 
 @include landscape667 {
-  #contact {
-    margin-top: -8%;
-  }
-  #contactSection {
-    height: 100vh;
-  }
-}
-
-@include landscape720 {
-  #contact {
-    margin-top: -93%;
-  }
-  #contactSection {
-    height: 140vh;
-  }
-}
-
-@include landscape740 {
-  #contact {
-    margin-top: -6%;
-  }
   #contactSection {
     height: 110vh;
   }
 }
 
-@include portrait820 {
-  #contact {
-    padding-top: 9%;
+@include landscape720 {
+  #contactSection {
+    height: 80vh;
   }
 }
 
-@include landscape844 {
-  #contact {
-    margin-top: -15%;
-  }
+@include landscape740 {
   #contactSection {
-    height: 100vh;
+    height: 120vh;
   }
 }
 
-@include landscape896 {
-  #contact {
-    margin-top: -19%;
-  }
-  #contactSection {
-    height: 100vh;
-  }
-}
+// @include portrait820 {
+//   #contact {
+//     padding-top: 9%;
+//   }
+// }
 
-@include landscape914 {
-  #contact {
-    margin-top: -18%;
-  }
-  #contactSection {
-    height: 100vh;
-  }
-}
+// @include landscape844 {
+//   #contact {
+//     margin-top: -15%;
+//   }
+//   #contactSection {
+//     height: 100vh;
+//   }
+// }
 
-@include landscape1024 {
-  #contact {
-    margin-top: -45%;
-  }
+// @include landscape896 {
+//   #contact {
+//     margin-top: -19%;
+//   }
+//   #contactSection {
+//     height: 100vh;
+//   }
+// }
+
+// @include landscape914 {
+//   #contact {
+//     margin-top: -18%;
+//   }
+//   #contactSection {
+//     height: 100vh;
+//   }
+// }
+
+// @include landscape1024And768 {
+//   #contactSection {
+//     height: 60vh;
+//   }
+// }
+
+@include landscape1024And600 {
   #contactSection {
-    height: 90vh;
+    height: 75vh;
   }
 }
 
 @include landscape1180 {
-  #contact {
-    margin-top: -72%;
-  }
   #contactSection {
-    height: 100vh;
+    height: 60vh;
   }
 }
 
-@include landscape1280 {
-  #contact {
-    margin-top: -64%;
-  }
-  #contactSection {
-    height: 100vh;
-  }
-}
+// @include landscape1280 {
+//   #contact {
+//     margin-top: -64%;
+//   }
+//   #contactSection {
+//     height: 100vh;
+//   }
+// }
 
-@include landscape1368 {
-  #contact {
-    margin-top: -73%;
-  }
-}
+// @include landscape1368 {
+//   #contact {
+//     margin-top: -73%;
+//   }
+// }
 
-// Responsive
+// // Responsive
 
-@include portrait465 {
-  #contact {
-    margin-top: -42%;
-  }
-  #contactSection {
-    height: 130vh;
-  }
-}
+// @include portrait465 {
+//   #contact {
+//     margin-top: -42%;
+//   }
+//   #contactSection {
+//     height: 130vh;
+//   }
+// }
 
 // Responsive
 
 @include landscape1326 {
-  #contact {
-    margin-top: -21%;
+  #contactSection {
+    height: 100vh;
   }
 }

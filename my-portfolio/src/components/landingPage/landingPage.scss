@@ -2,32 +2,114 @@ $navColour: rgb(34, 6, 6);
 
 @import "../_mediaQueries.scss";
 
-.landing {
-  height: 100%;
-  width: 100%;
-}
-
-#womanImage {
+img {
   max-width: 100%;
-  max-height: 100%;
+  display: block;
+  height: auto;
 }
 
-// Portrait
-
-@include portrait540 {
-  .landing {
-    height: 68vh;
+@include portrait768 {
+  .container {
+    min-width: 768px;
   }
 }
 
 @include portrait820 {
-  .landing {
-    height: 60vh;
+  .container {
+    min-width: 820px;
   }
 }
 
 @include portrait912 {
-  .landing {
-    height: 50vh;
+  .container {
+    min-width: 912px;
+  }
+}
+
+// Landscape
+
+@include landscape653 {
+  .container {
+    min-width: 653px;
+  }
+}
+
+@include landscape667 {
+  .container {
+    min-width: 667px;
+  }
+}
+
+@include landscape720 {
+  .container {
+    min-width: 720px;
+  }
+}
+
+@include landscape740 {
+  .container {
+    min-width: 740px;
+  }
+}
+
+@include landscape844 {
+  .container {
+    min-width: 844px;
+  }
+}
+
+@include landscape851 {
+  .container {
+    min-width: 851px;
+  }
+}
+
+@include landscape896 {
+  .container {
+    min-width: 896px;
+  }
+}
+
+@include landscape914 {
+  .container {
+    min-width: 914px;
+  }
+}
+
+@include landscape915 {
+  .container {
+    min-width: 915px;
+  }
+}
+
+@include landscape1024 {
+  .container {
+    min-width: 1024px;
+  }
+}
+
+@include landscape1180 {
+  .container {
+    min-width: 1180px;
+  }
+}
+
+@include landscape1280 {
+  .container {
+    min-width: 1280px;
+  }
+}
+
+@include landscape1400 {
+  .container {
+    min-width: 1400px;
+  }
+}
+
+// Responsive
+
+@include landscape1326 {
+  .container {
+    min-width: 1326px;
   }
 }
