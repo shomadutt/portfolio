@@ -8,108 +8,108 @@ img {
   height: auto;
 }
 
-@include portrait768 {
-  .container {
-    min-width: 768px;
-  }
-}
+// @include portrait768 {
+//   .container {
+//     min-width: 768px;
+//   }
+// }
 
-@include portrait820 {
-  .container {
-    min-width: 820px;
-  }
-}
+// @include portrait820 {
+//   .container {
+//     min-width: 820px;
+//   }
+// }
 
-@include portrait912 {
-  .container {
-    min-width: 912px;
-  }
-}
+// @include portrait912 {
+//   .container {
+//     min-width: 912px;
+//   }
+// }
 
 // Landscape
 
-@include landscape653 {
-  .container {
-    min-width: 653px;
-  }
-}
+// @include landscape653 {
+//   .container {
+//     min-width: 653px;
+//   }
+// }
 
-@include landscape667 {
-  .container {
-    min-width: 667px;
-  }
-}
+// @include landscape667 {
+//   .container {
+//     min-width: 667px;
+//   }
+// }
 
-@include landscape720 {
-  .container {
-    min-width: 720px;
-  }
-}
+// @include landscape720 {
+//   .container {
+//     min-width: 720px;
+//   }
+// }
 
-@include landscape740 {
-  .container {
-    min-width: 740px;
-  }
-}
+// @include landscape740 {
+//   .container {
+//     min-width: 740px;
+//   }
+// }
 
-@include landscape844 {
-  .container {
-    min-width: 844px;
-  }
-}
+// @include landscape844 {
+//   .container {
+//     min-width: 844px;
+//   }
+// }
 
-@include landscape851 {
-  .container {
-    min-width: 851px;
-  }
-}
+// @include landscape851 {
+//   .container {
+//     min-width: 851px;
+//   }
+// }
 
-@include landscape896 {
-  .container {
-    min-width: 896px;
-  }
-}
+// @include landscape896 {
+//   .container {
+//     min-width: 896px;
+//   }
+// }
 
-@include landscape914 {
-  .container {
-    min-width: 914px;
-  }
-}
+// @include landscape914 {
+//   .container {
+//     min-width: 914px;
+//   }
+// }
 
-@include landscape915 {
-  .container {
-    min-width: 915px;
-  }
-}
+// @include landscape915 {
+//   .container {
+//     min-width: 915px;
+//   }
+// }
 
-@include landscape1024 {
-  .container {
-    min-width: 1024px;
-  }
-}
+// @include landscape1024 {
+//   .container {
+//     min-width: 1024px;
+//   }
+// }
 
-@include landscape1180 {
-  .container {
-    min-width: 1180px;
-  }
-}
+// @include landscape1180 {
+//   .container {
+//     min-width: 1180px;
+//   }
+// }
 
-@include landscape1280 {
-  .container {
-    min-width: 1280px;
-  }
-}
+// @include landscape1280 {
+//   .container {
+//     min-width: 1280px;
+//   }
+// }
 
-@include landscape1400 {
-  .container {
-    min-width: 1400px;
-  }
-}
+// @include landscape1400 {
+//   .container {
+//     min-width: 1400px;
+//   }
+// }
 
-// Responsive
+// // Responsive
 
-@include landscape1326 {
-  .container {
-    min-width: 1326px;
-  }
-}
+// @include landscape1326 {
+//   .container {
+//     min-width: 1326px;
+//   }
+// }
