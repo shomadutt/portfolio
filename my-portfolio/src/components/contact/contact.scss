@@ -1,13 +1,8 @@
 @import "../_section.scss";
 @import "../_sectionTitle.scss";
 @import "../textPara";
-@import "../_navColour.scss";
 @import "../_btnColour.scss";
 @import "../_mediaQueries.scss";
-
-// #contactSection {
-//   height: 55vh;
-// }
 
 .btn {
   @include navBtn;
@@ -18,99 +13,3 @@ textarea {
   background-color: rgb(243, 208, 219) !important;
   border-color: rgb(173, 171, 171) !important;
 }
-
-// Portrait
-
-// @include portrait360 {
-//   #contactSection {
-//     height: 50vh;
-//   }
-// }
-
-// @include portrait375 {
-//   #contactSection {
-//     height: 55vh;
-//   }
-// }
-
-// @include portrait390 {
-//   #contactSection {
-//     height: 46vh;
-//   }
-// }
-
-// @include portrait412 {
-//   #contactSection {
-//     height: 42vh;
-//   }
-// }
-
-// @include portrait540 {
-//   #contactSection {
-//     height: 55vh;
-//   }
-// }
-
-// @include portrait768 {
-//   #contactSection {
-//     height: 40vh;
-//   }
-// }
-
-// @include portrait820 {
-//   #contactSection {
-//     height: 35vh;
-//   }
-// }
-
-// @include portrait912 {
-//   #contactSection {
-//     height: 33vh;
-//   }
-// }
-
-// // // Landscape
-
-// @include landscape653 {
-//   #contactSection {
-//     height: 150vh;
-//   }
-// }
-
-// @include landscape667 {
-//   #contactSection {
-//     height: 110vh;
-//   }
-// }
-
-// @include landscape720 {
-//   #contactSection {
-//     height: 80vh;
-//   }
-// }
-
-// @include landscape740 {
-//   #contactSection {
-//     height: 120vh;
-//   }
-// }
-
-// @include landscape1024And600 {
-//   #contactSection {
-//     height: 75vh;
-//   }
-// }
-
-// @include landscape1180 {
-//   #contactSection {
-//     height: 60vh;
-//   }
-// }
-
-// // Responsive
-
-// @include landscape1326 {
-//   #contactSection {
-//     height: 100vh;
-//   }
-// }

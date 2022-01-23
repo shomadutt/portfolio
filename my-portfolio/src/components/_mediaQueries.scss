@@ -1,11 +1,5 @@
 // Portrait
 
-@mixin portrait280 {
-  @media screen and (min-width: 280px) and (orientation: portrait) {
-    @content;
-  }
-}
-
 @mixin portrait360 {
   @media screen and (min-width: 360px) and (orientation: portrait) {
     @content;
@@ -36,18 +30,6 @@
   }
 }
 
-@mixin portrait540 {
-  @media screen and (min-width: 540px) and (orientation: portrait) {
-    @content;
-  }
-}
-
-@mixin portrait720 {
-  @media screen and (min-width: 720px) and (orientation: portrait) {
-    @content;
-  }
-}
-
 @mixin portrait768 {
   @media screen and (min-width: 768px) and (orientation: portrait) {
     @content;
@@ -68,88 +50,14 @@
 
 // Landscape
 
-@mixin landscape653 {
-  @media screen and (min-width: 653px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-@mixin landscape667 {
-  @media screen and (min-width: 667px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-@mixin landscape720 {
-  @media screen and (min-width: 720px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-@mixin landscape740 {
-  @media screen and (min-width: 740px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-@mixin landscape844 {
-  @media screen and (min-width: 844px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-@mixin landscape851 {
-  @media screen and (min-width: 851px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-@mixin landscape896 {
-  @media screen and (min-width: 896px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-@mixin landscape914 {
-  @media screen and (min-width: 914px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-@mixin landscape915 {
-  @media screen and (min-width: 915px) and (orientation: landscape) {
-    @content;
-  }
-}
-
 @mixin landscape1024 {
   @media screen and (min-width: 1024px) and (orientation: landscape) {
     @content;
   }
 }
 
-@mixin landscape1024And600 {
-  @media screen and (min-width: 1024px) and (min-height: 600px) {
-    @content;
-  }
-}
-
 @mixin landscape1180 {
   @media screen and (min-width: 1180px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-@mixin landscape1280 {
-  @media screen and (min-width: 1280px) and (orientation: landscape) {
-    @content;
-  }
-}
-
-// Responsive
-
-@mixin landscape1326 {
-  @media screen and (min-width: 1326px) and (orientation: landscape) {
     @content;
   }
 }

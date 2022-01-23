@@ -6,7 +6,6 @@
         "../_section.scss",
         "../_sectionTitle.scss",
         "../_textPara.scss",
-        "../_navColour.scss",
         "../_mediaQueries.scss"
     ],
     "names": [],

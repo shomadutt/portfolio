@@ -3,7 +3,71 @@ section {
   background-color: #f3d0db;
 }
 
+#footerSection {
+  height: 40vh;
+}
+
 #footer {
   text-align: center;
+}
+
+@media screen and (min-width: 360px) and (orientation: portrait) {
+  #footerSection {
+    height: 55vh;
+  }
+}
+
+@media screen and (min-width: 375px) and (orientation: portrait) {
+  #footerSection {
+    height: 40vh;
+  }
+}
+
+@media screen and (min-width: 390px) and (orientation: portrait) {
+  #footerSection {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 412px) and (orientation: portrait) {
+  #footerSection {
+    height: 55vh;
+  }
+}
+
+@media screen and (min-width: 414px) and (orientation: portrait) {
+  #footerSection {
+    height: 55vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  #footerSection {
+    height: 75vh;
+  }
+}
+
+@media screen and (min-width: 820px) and (orientation: portrait) {
+  #footerSection {
+    height: 70vh;
+  }
+}
+
+@media screen and (min-width: 912px) and (orientation: portrait) {
+  #footerSection {
+    height: 80vh;
+  }
+}
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  #footerSection {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 1180px) and (orientation: landscape) {
+  #footerSection {
+    height: 70vh;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

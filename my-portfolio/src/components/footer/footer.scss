@@ -1,9 +1,9 @@
 @import "../_section.scss";
 @import "../_mediaQueries.scss";
 
-// #footerSection {
-//   height: 35vh;
-// }
+#footerSection {
+  height: 40vh;
+}
 
 #footer {
   text-align: center;
@@ -11,78 +11,64 @@
 
 // Portrait
 
-// @include portrait360 {
-//   #footerSection {
-//     height: 40vh;
-//   }
-// }
+@include portrait360 {
+  #footerSection {
+    height: 55vh;
+  }
+}
 
-// @include portrait375 {
-//   #footerSection {
-//     height: 35vh;
-//   }
-// }
+@include portrait375 {
+  #footerSection {
+    height: 40vh;
+  }
+}
 
-// @include portrait390 {
-//   #footerSection {
-//     height: 50vh;
-//   }
-// }
+@include portrait390 {
+  #footerSection {
+    height: 50vh;
+  }
+}
 
-// @include portrait412 {
-//   #footerSection {
-//     height: 55vh;
-//   }
-// }
+@include portrait412 {
+  #footerSection {
+    height: 55vh;
+  }
+}
 
-// @include portrait540 {
-//   #footerSection {
-//     height: 45vh;
-//   }
-// }
+@include portrait414 {
+  #footerSection {
+    height: 55vh;
+  }
+}
 
-// @include portrait768 {
-//   #footerSection {
-//     height: 60vh;
-//   }
-// }
+@include portrait768 {
+  #footerSection {
+    height: 75vh;
+  }
+}
 
-// @include portrait820 {
-//   #footerSection {
-//     height: 65vh;
-//   }
-// }
+@include portrait820 {
+  #footerSection {
+    height: 70vh;
+  }
+}
 
-// @include portrait912 {
-//   #footerSection {
-//     height: 70vh;
-//   }
-// }
+@include portrait912 {
+  #footerSection {
+    height: 80vh;
+  }
+}
 
-// // // Landscape
+// Landscape
 
-// @include landscape667 {
-//   #footerSection {
-//     height: 25vh;
-//   }
-// }
+@include landscape1024 {
+  #footerSection {
+    height: 60vh;
+  }
+}
 
-// @include landscape1024And600 {
-//   #footerSection {
-//     height: 40vh;
-//   }
-// }
-
-// @include landscape1180 {
-//   #footerSection {
-//     height: 50vh;
-//   }
-// }
-
-// // Responsive
-
-// @include landscape1326 {
-//   #footerSection {
-//     height: 30vh;
-//   }
-// }
+@include landscape1180 {
+  #footerSection {
+    height: 70vh;
+  }
+}
