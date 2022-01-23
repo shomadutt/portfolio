@@ -1,8 +1,6 @@
 section {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 10%;
   background-color: #f3d0db;
-  height: 100vh;
 }
 
 .sectionTitle {
@@ -16,10 +14,6 @@ section {
   margin-top: 5%;
 }
 
-#contactSection {
-  height: 55vh;
-}
-
 .btn {
   background-color: #220606 !important;
   border: none !important;
@@ -29,95 +23,5 @@ input,
 textarea {
   background-color: #f3d0db !important;
   border-color: #adabab !important;
-}
-
-@media screen and (min-width: 360px) and (orientation: portrait) {
-  #contactSection {
-    height: 50vh;
-  }
-}
-
-@media screen and (min-width: 375px) and (orientation: portrait) {
-  #contactSection {
-    height: 55vh;
-  }
-}
-
-@media screen and (min-width: 390px) and (orientation: portrait) {
-  #contactSection {
-    height: 46vh;
-  }
-}
-
-@media screen and (min-width: 412px) and (orientation: portrait) {
-  #contactSection {
-    height: 42vh;
-  }
-}
-
-@media screen and (min-width: 540px) and (orientation: portrait) {
-  #contactSection {
-    height: 55vh;
-  }
-}
-
-@media screen and (min-width: 768px) and (orientation: portrait) {
-  #contactSection {
-    height: 40vh;
-  }
-}
-
-@media screen and (min-width: 820px) and (orientation: portrait) {
-  #contactSection {
-    height: 35vh;
-  }
-}
-
-@media screen and (min-width: 912px) and (orientation: portrait) {
-  #contactSection {
-    height: 33vh;
-  }
-}
-
-@media screen and (min-width: 653px) and (orientation: landscape) {
-  #contactSection {
-    height: 150vh;
-  }
-}
-
-@media screen and (min-width: 667px) and (orientation: landscape) {
-  #contactSection {
-    height: 110vh;
-  }
-}
-
-@media screen and (min-width: 720px) and (orientation: landscape) {
-  #contactSection {
-    height: 80vh;
-  }
-}
-
-@media screen and (min-width: 740px) and (orientation: landscape) {
-  #contactSection {
-    height: 120vh;
-  }
-}
-
-@media screen and (min-width: 1024px) and (min-height: 600px) {
-  #contactSection {
-    height: 75vh;
-  }
-}
-
-@media screen and (min-width: 1180px) and (orientation: landscape) {
-  #contactSection {
-    height: 60vh;
-  }
-}
-
-@media screen and (min-width: 1326px) and (orientation: landscape) {
-  #contactSection {
-    height: 100vh;
-  }
 }
 /*# sourceMappingURL=contact.css.map */

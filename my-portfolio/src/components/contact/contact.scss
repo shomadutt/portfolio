@@ -5,9 +5,9 @@
 @import "../_btnColour.scss";
 @import "../_mediaQueries.scss";
 
-#contactSection {
-  height: 55vh;
-}
+// #contactSection {
+//   height: 55vh;
+// }
 
 .btn {
   @include navBtn;
@@ -21,161 +21,96 @@ textarea {
 
 // Portrait
 
-@include portrait360 {
-  #contactSection {
-    height: 50vh;
-  }
-}
+// @include portrait360 {
+//   #contactSection {
+//     height: 50vh;
+//   }
+// }
 
-@include portrait375 {
-  #contactSection {
-    height: 55vh;
-  }
-}
+// @include portrait375 {
+//   #contactSection {
+//     height: 55vh;
+//   }
+// }
 
-@include portrait390 {
-  #contactSection {
-    height: 46vh;
-  }
-}
+// @include portrait390 {
+//   #contactSection {
+//     height: 46vh;
+//   }
+// }
 
-@include portrait412 {
-  #contactSection {
-    height: 42vh;
-  }
-}
+// @include portrait412 {
+//   #contactSection {
+//     height: 42vh;
+//   }
+// }
 
-@include portrait540 {
-  #contactSection {
-    height: 55vh;
-  }
-}
+// @include portrait540 {
+//   #contactSection {
+//     height: 55vh;
+//   }
+// }
 
-@include portrait768 {
-  #contactSection {
-    height: 40vh;
-  }
-}
-
-@include portrait820 {
-  #contactSection {
-    height: 35vh;
-  }
-}
-
-@include portrait912 {
-  #contactSection {
-    height: 33vh;
-  }
-}
-
-// // Landscape
-
-@include landscape653 {
-  #contactSection {
-    height: 150vh;
-  }
-}
-
-@include landscape667 {
-  #contactSection {
-    height: 110vh;
-  }
-}
-
-@include landscape720 {
-  #contactSection {
-    height: 80vh;
-  }
-}
-
-@include landscape740 {
-  #contactSection {
-    height: 120vh;
-  }
-}
+// @include portrait768 {
+//   #contactSection {
+//     height: 40vh;
+//   }
+// }
 
 // @include portrait820 {
-//   #contact {
-//     padding-top: 9%;
-//   }
-// }
-
-// @include landscape844 {
-//   #contact {
-//     margin-top: -15%;
-//   }
 //   #contactSection {
-//     height: 100vh;
+//     height: 35vh;
 //   }
 // }
 
-// @include landscape896 {
-//   #contact {
-//     margin-top: -19%;
-//   }
+// @include portrait912 {
 //   #contactSection {
-//     height: 100vh;
+//     height: 33vh;
 //   }
 // }
 
-// @include landscape914 {
-//   #contact {
-//     margin-top: -18%;
-//   }
+// // // Landscape
+
+// @include landscape653 {
 //   #contactSection {
-//     height: 100vh;
+//     height: 150vh;
 //   }
 // }
 
-// @include landscape1024And768 {
+// @include landscape667 {
+//   #contactSection {
+//     height: 110vh;
+//   }
+// }
+
+// @include landscape720 {
+//   #contactSection {
+//     height: 80vh;
+//   }
+// }
+
+// @include landscape740 {
+//   #contactSection {
+//     height: 120vh;
+//   }
+// }
+
+// @include landscape1024And600 {
+//   #contactSection {
+//     height: 75vh;
+//   }
+// }
+
+// @include landscape1180 {
 //   #contactSection {
 //     height: 60vh;
 //   }
 // }
 
-@include landscape1024And600 {
-  #contactSection {
-    height: 75vh;
-  }
-}
+// // Responsive
 
-@include landscape1180 {
-  #contactSection {
-    height: 60vh;
-  }
-}
-
-// @include landscape1280 {
-//   #contact {
-//     margin-top: -64%;
-//   }
+// @include landscape1326 {
 //   #contactSection {
 //     height: 100vh;
 //   }
 // }
-
-// @include landscape1368 {
-//   #contact {
-//     margin-top: -73%;
-//   }
-// }
-
-// // Responsive
-
-// @include portrait465 {
-//   #contact {
-//     margin-top: -42%;
-//   }
-//   #contactSection {
-//     height: 130vh;
-//   }
-// }
-
-// Responsive
-
-@include landscape1326 {
-  #contactSection {
-    height: 100vh;
-  }
-}

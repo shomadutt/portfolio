@@ -1,8 +1,6 @@
 section {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 10%;
   background-color: #f3d0db;
-  height: 100vh;
 }
 
 .sectionTitle {
@@ -14,105 +12,5 @@ section {
 
 #textPara {
   margin-top: 5%;
-}
-
-#aboutSection {
-  height: 45vh;
-}
-
-@media screen and (min-width: 360px) and (orientation: portrait) {
-  #aboutSection {
-    height: 31vh;
-  }
-}
-
-@media screen and (min-width: 375px) and (orientation: portrait) {
-  #aboutSection {
-    height: 35vh;
-  }
-}
-
-@media screen and (min-width: 390px) and (orientation: portrait) {
-  #aboutSection {
-    height: 25vh;
-  }
-}
-
-@media screen and (min-width: 412px) and (orientation: portrait) {
-  #aboutSection {
-    height: 23vh;
-  }
-}
-
-@media screen and (min-width: 540px) and (orientation: portrait) {
-  #aboutSection {
-    height: 28vh;
-  }
-}
-
-@media screen and (min-width: 768px) and (orientation: portrait) {
-  #aboutSection {
-    height: 17vh;
-  }
-}
-
-@media screen and (min-width: 820px) and (orientation: portrait) {
-  #aboutSection {
-    height: 15vh;
-  }
-}
-
-@media screen and (min-width: 912px) and (orientation: portrait) {
-  #aboutSection {
-    height: 14vh;
-  }
-}
-
-@media screen and (min-width: 653px) and (orientation: landscape) {
-  #aboutSection {
-    height: 66vh;
-  }
-}
-
-@media screen and (min-width: 667px) and (orientation: landscape) {
-  #aboutSection {
-    height: 49vh;
-  }
-}
-
-@media screen and (min-width: 720px) and (orientation: landscape) {
-  #aboutSection {
-    height: 33vh;
-  }
-}
-
-@media screen and (min-width: 740px) and (orientation: landscape) {
-  #aboutSection {
-    height: 50vh;
-  }
-}
-
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #aboutSection {
-    height: 45vh;
-  }
-}
-
-@media screen and (min-width: 1024px) and (min-height: 600px) {
-  #aboutSection {
-    height: 33vh;
-  }
-}
-
-@media screen and (min-width: 1180px) and (orientation: landscape) {
-  #aboutSection {
-    height: 26vh;
-  }
-}
-
-@media screen and (min-width: 1326px) and (orientation: landscape) {
-  #aboutSection {
-    height: 46vh;
-  }
 }
 /*# sourceMappingURL=about.css.map */

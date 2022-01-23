@@ -4,140 +4,108 @@
 @import "../_navColour.scss";
 @import "../_mediaQueries.scss";
 
-#aboutSection {
-  height: 45vh;
-}
+// #aboutSection {
+//   height: 45vh;
+// }
 
 // // Portrait
 
-@include portrait360 {
-  #aboutSection {
-    height: 31vh;
-  }
-}
-
-@include portrait375 {
-  #aboutSection {
-    height: 35vh;
-  }
-}
-
-@include portrait390 {
-  #aboutSection {
-    height: 25vh;
-  }
-}
-
-@include portrait412 {
-  #aboutSection {
-    height: 23vh;
-  }
-}
-
-// @include portrait414 {
-//   #about {
-//     margin-top: -1%;
-//   }
-// }
-
-@include portrait540 {
-  #aboutSection {
-    height: 28vh;
-  }
-}
-
-@include portrait768 {
-  #aboutSection {
-    height: 17vh;
-  }
-}
-
-@include portrait820 {
-  #aboutSection {
-    height: 15vh;
-  }
-}
-
-@include portrait912 {
-  #aboutSection {
-    height: 14vh;
-  }
-}
-
-// Landscape
-
-@include landscape653 {
-  #aboutSection {
-    height: 66vh;
-  }
-}
-
-@include landscape667 {
-  #aboutSection {
-    height: 49vh;
-  }
-}
-
-@include landscape720 {
-  #aboutSection {
-    height: 33vh;
-  }
-}
-
-@include landscape740 {
-  #aboutSection {
-    height: 50vh;
-  }
-}
-
-@include landscape844 {
-  #aboutSection {
-    height: 45vh;
-  }
-}
-
-// @include landscape1024 {
+// @include portrait360 {
 //   #aboutSection {
-//     height: 5vh;
+//     height: 31vh;
 //   }
 // }
 
-@include landscape1024And600 {
-  #aboutSection {
-    height: 33vh;
-  }
-}
+// @include portrait375 {
+//   #aboutSection {
+//     height: 35vh;
+//   }
+// }
 
-@include landscape1180 {
-  #aboutSection {
-    height: 26vh;
-  }
-}
+// @include portrait390 {
+//   #aboutSection {
+//     height: 25vh;
+//   }
+// }
 
-// Responsive
+// @include portrait412 {
+//   #aboutSection {
+//     height: 23vh;
+//   }
+// }
 
-@include landscape1326 {
-  #aboutSection {
-    height: 46vh;
-  }
-}
+// @include portrait540 {
+//   #aboutSection {
+//     height: 28vh;
+//   }
+// }
 
-// @include landscape896 {
-//   #about {
-//     margin-top: -4%;
+// @include portrait768 {
+//   #aboutSection {
+//     height: 17vh;
+//   }
+// }
+
+// @include portrait820 {
+//   #aboutSection {
+//     height: 15vh;
+//   }
+// }
+
+// @include portrait912 {
+//   #aboutSection {
+//     height: 14vh;
+//   }
+// }
+
+// // Landscape
+
+// @include landscape653 {
+//   #aboutSection {
+//     height: 66vh;
+//   }
+// }
+
+// @include landscape667 {
+//   #aboutSection {
+//     height: 49vh;
+//   }
+// }
+
+// @include landscape720 {
+//   #aboutSection {
+//     height: 33vh;
+//   }
+// }
+
+// @include landscape740 {
+//   #aboutSection {
+//     height: 50vh;
+//   }
+// }
+
+// @include landscape844 {
+//   #aboutSection {
+//     height: 45vh;
+//   }
+// }
+
+// @include landscape1024And600 {
+//   #aboutSection {
+//     height: 33vh;
 //   }
 // }
 
 // @include landscape1180 {
-//   #about {
-//     margin-top: -4%;
+//   #aboutSection {
+//     height: 26vh;
 //   }
 // }
 
 // // Responsive
 
-// @include portrait465 {
-//   #about {
-//     margin-top: -32%;
+// @include landscape1326 {
+//   #aboutSection {
+//     height: 46vh;
 //   }
 // }
