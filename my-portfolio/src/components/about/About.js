@@ -3,7 +3,7 @@ import "./about.scss";
 
 const About = () => {
   return (
-    <div className="container px-0">
+    <div className="container-fluid px-0">
     <section id="aboutSection">
      
       <p className="sectionTitle" id="about">

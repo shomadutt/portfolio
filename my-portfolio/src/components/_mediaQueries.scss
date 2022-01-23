@@ -146,12 +146,6 @@
   }
 }
 
-@mixin landscape1400 {
-  @media screen and (min-width: 1400px) and (orientation: landscape) {
-    @content;
-  }
-}
-
 // Responsive
 
 @mixin landscape1326 {
